@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&display=swap');
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+:root {
+    --text-color: white;
+    --bg-url: url(./assets/img1.jpg);
+    --surface-color-hover: rgba(255, 255, 255, 0.208);
+    --border-container: rgba(129, 114, 132, 0.381);
+   --ioncolor: rgba(0, 0, 0, 0.952);
+}   
+
+.light {
+    --text-color: black;
+    --bg-url: url(./assets/img2.jfif);
+    --surface-color-hover: rgba(0, 0, 0, 0.221);
+    --border-container: rgba(245, 149, 171, 0.381);
+    --ioncolor: rgba(255, 255, 255, 0.966);  
+}
+
+body{
+    background: var(--bg-url) no-repeat center/cover; 
+    font-family: "Oswald", sans-serif; 
+}
+
+#container {
+    width: 450px;
+    margin:  56px auto;
+    border: 50px double var(--border-container); 
+    padding: 20px;
+}
+
+/* Perfil */
+#perfil {
+    padding: 10px;
+    color: var(--text-color);
+    text-align: center;
+}
+
+#perfil img {
+    border-radius: 50%;
+    width: 112px   
+}
+
+#perfil p{
+    line-height: 24px;
+    padding: 5px;
+    width: 80px;
+    margin: 3px auto;
+    backdrop-filter: blur(4px);
+    border-radius: 20px;
+    font-weight: 500;
+
+}    
+
+/* Botão tema */ 
+#switch{
+    position: relative;
+    width: 60px;
+    margin: 0 auto 19px;    
+}
+
+#switch button {
+    width: 32px;
+    height: 32px;
+    background: var(--text-color);;
+    border: 0;
+    border-radius: 50%;
+    font-size: 25px;
+    padding: 4px;
+    color: var(--ioncolor); 
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.light #switch button {
+    right: 0;
+    left: initial;
+}
+
+#switch span {
+    display: block;
+    width: 60px;
+    height: 24px;
+    backdrop-filter: blur(100px);
+    border: 1px solid var(--text-color);
+    border-radius: 100px;
+    -webkit-backdrop-filter: blur(100px);
+}
+
+/* Links */
+ul{
+    list-style: none;
+    display: flex; 
+    flex-direction: column;
+    gap: 19px;    
+}
+
+ul li a{
+    display: flex; 
+    justify-content: center;
+    padding: 16px 24px;
+    border-radius: 12px;
+    border: 1px solid var(--text-color);
+    backdrop-filter: blur(100px);
+    text-decoration: none;
+    font-weight: 500;
+    -webkit-backdrop-filter: blur(100px);
+    color: var(--text-color);
+}
+
+ul li a:hover {
+    border: 1px solid rgba(255, 255, 255, 0.183);
+    background: var(--surface-color-hover);
+}
+
+#links {
+    display: flex;
+    padding: 18px;
+    font-size: 33px;
+    justify-content: center;
+}
+
+#links a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    backdrop-filter: blur(2px);
+    color: var(--text-color);
+}
+
+/* Corzinha atrás dos icones*/
+#links a:hover {
+    background: var(--surface-color-hover);
+    border-radius: 50%;
+    backdrop-filter: blur(3px);
+}
+
+#heart {
+    font-size: 20px;
+    color: var(--text-color);
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--text-color);
+    padding: 24 px;
+    backdrop-filter: blur(10px);
+}
+
+footer a{
+    color: var(--text-color);
+}
