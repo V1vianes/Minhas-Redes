@@ -44,9 +44,9 @@ body{
     }
 }
 
-@media (max-width: 480px) {
-  #container {
-     margin: 2px auto;
+@media (max-width: 450px) {
+  #container{
+   margin: 0 0;
   }
 }
 
