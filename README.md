@@ -30,7 +30,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Agregador de links para usar como cartão de visitas online.
 
-- [Acesse o projeto finalizado, online](https://v1vianes.github.io/Minhas-Redes)
+- [Acesse o projeto finalizado, online](https://v1vianes.github.io/MinhasRedes)
 
 
 ## :memo: Licença
