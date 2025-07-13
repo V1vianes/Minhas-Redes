@@ -31,18 +31,18 @@ body{
 
 #container {
     width: 100%;
-    max-width: 35rem;
+    max-width: 500px;
     margin:  60px auto;
     border: 50px double var(--border-container); 
     padding: 20px;
 }
 
-/*@media (min-width: 1400px) {
+@media (min-width: 1900px) {
   .container {
-    max-width: 900px;
+    max-width: 1000px;
     padding: 30px;
     }
-}*/
+}
 
 /* Perfil */
 #perfil {
