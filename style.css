@@ -28,7 +28,8 @@ body{
 }
 
 #container {
-    width: 450px;
+    width: 100%;
+    max-width: 580px;
     margin:  56px auto;
     border: 50px double var(--border-container); 
     padding: 20px;
