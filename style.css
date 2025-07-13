@@ -31,7 +31,7 @@ body{
 
 #container {
     width: 100%;
-    max-width: 40rem;
+    max-width: 35rem;
     margin:  60px auto;
     border: 50px double var(--border-container); 
     padding: 20px;
