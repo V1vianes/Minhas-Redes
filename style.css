@@ -38,10 +38,16 @@ body{
 }
 
 @media (min-width: 1900px) {
-  .container {
+  #container {
     max-width: 1000px;
     padding: 30px;
     }
+}
+
+@media (max-width: 600px) {
+  #container {
+    margin-top: 0;
+  }
 }
 
 /* Perfil */
