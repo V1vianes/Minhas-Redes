@@ -25,14 +25,23 @@
 body{
     background: var(--bg-url) no-repeat center/cover; 
     font-family: "Oswald", sans-serif; 
+    height: 100vh;
+    
 }
 
 #container {
     width: 100%;
-    max-width: 580px;
-    margin:  56px auto;
+    max-width: 500px;
+    margin:  80px auto;
     border: 50px double var(--border-container); 
     padding: 20px;
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 900px;
+    padding: 30px;
+    }
 }
 
 /* Perfil */
